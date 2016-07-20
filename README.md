@@ -25,6 +25,14 @@ Desenvolvimento Full stack
 
 > * [Slack](http://slack.com)
 
-
 > UML
 > * [StarUML](http://staruml.io/)
+
+> HTML
+> * [JSFiddle](http://jsfiddle.net)
+> * [W3schools](http://www.w3schools.com/html/default.asp)
+
+> Editores
+> * [Atom](https://atom.io)
+> * [Sublime Text](https://www.sublimetext.com)
+> * [Brackets](http://brackets.io)
