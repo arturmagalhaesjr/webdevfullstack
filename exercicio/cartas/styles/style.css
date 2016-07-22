@@ -1,0 +1,17 @@
+h1 {
+  font-family: 'Open Sans', sans-serif;
+  color: #656565;
+}
+
+body {
+  background: #1a1a1a;
+}
+
+.yellow {
+  color: yellow;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
