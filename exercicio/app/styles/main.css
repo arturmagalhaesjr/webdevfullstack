@@ -1,0 +1,55 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  width: 100%;
+  heigth: 100%;
+}
+
+header {
+  background: black;
+  padding:15px 10px;
+}
+
+.background-gray1 {
+  background-color: #232323;
+}
+
+.background-red {
+  background-color: #ff6666;
+}
+
+.font-color-red {
+  color: #ff6666;
+}
+
+.container {
+  
+}
+
+
+/* Por padrão o menu vem oculto */
+nav.menu-bar {
+    display:none;
+    position:absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 250px;
+}
+
+body.menu-open header {
+  background:red;
+}
+
+body.menu-open nav.menu-bar {
+    display:block;
+}
+
+body.menu-open .container {
+    transform: translateX(250px);
+}
+
+/* quando clicado no link do menu o menu

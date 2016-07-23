@@ -1,7 +1,19 @@
 .caixa {
-
+  width: 1600px;
+  overflow-x: scroll;
+  list-style: none;
+  height: 700px;
+  display:block;
 }
 
+.caixa li:nth-child(4) {
+  background: red;
+}
 .caixa li {
-  
+  float:left;
+  background-color: green;
+  margin: 0 0 2px 2px;
+
+  width: 300px;
+  height: 300px;
 }

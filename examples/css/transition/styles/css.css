@@ -1,0 +1,35 @@
+button {
+   border: 1px solid gray;
+   background: silver;
+   padding: 5px 20px;
+   border-radius: 10px;
+   font-size:16px;
+   position: relative;
+   float:left;
+   -webkit-transition: margin 2s linear; /* Safari */
+   transition: margin 2s linear;
+}
+
+button:active {
+  margin-top:100px;
+}
+.t1 {
+  transition-timing-function: ease;
+}
+
+
+.t2 {
+  transition-timing-function: ease-in;
+}
+
+.t3 {
+  transition-timing-function: ease-out;
+}
+
+.t4 {
+  transition-timing-function: ease-in-out;
+}
+
+.t5 {
+  transition-timing-function: cubic-bezier(.42, 0, .58, 1);
+}
