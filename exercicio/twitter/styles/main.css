@@ -1,0 +1,24 @@
+body {
+  background: #36b9ff;
+}
+
+#list-messages li {
+  padding: 20px;
+  background:white;
+  border-radius: 20px;
+  margin-bottom: 50px;
+  overflow: hidden;
+
+}
+#list-messages li a {
+  float:right;
+}
+
+#loading {
+
+  position: fixed;
+  top:15px;
+  width: 250px;
+  left: calc(50% - 125px);
+  display:none;
+}

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <meta charset="utf-8"  />
+      <title>Twitter App</title>
+      <link type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet" />
+      <link type="text/css" href="styles/main.css" rel="stylesheet" />
+  </head>
+  <body>
+    <div class="container">
+        <h1>App like Twitter</h1>
+        <hr />
+        <form class="form form-add">
+            <div class="form-group">
+              <label class="control-label">Postar mensagem</label>
+              <textarea class="form-control" id="message"></textarea>
+            </div>
+            <button class="btn btn-success" type="submit"><i class="glyphicon glyphicon-ok"></i> Postar</button>
+        </form>
+        <hr  />
+        <div id="loading" class="loading text-center alert alert-warning"></div>
+        <div class="messages"></div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.4/jquery.min.js" type="text/javascript"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.6/js/bootstrap.min.js"></script>
+    <script src="scripts/main.js"></script>
+  </body>
+
+</html>
